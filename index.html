@@ -774,4 +774,106 @@ What command can be used to troubleshoot domain name resolution issues?
 A wireless router is displaying the IP address of 192.168.0.1. What could this mean?
 •	The wireless router still has the factory default IP address.
 
+A computer is assigned an IP address of 169.254.33.16. What can be said about the computer, based on the assigned address?
+o	It cannot communicate outside its own network.
 
+Explanation:
+If a computer is configured with DHCP but it cannot communicate with the DHCP server in order to obtain an IP address, the Windows OS automatically assigns a link-local IP, in the range of 169.254.0.0 to 169.254.255.255. The computer can only communicate with other computers connected to the same 169.254.0.0/16 network and cannot communicate with computers in another network.
+A technician needs to add a new wireless device to a small WLAN. The WLAN is a mixture of old and newer 802.11b and 802.11g devices. What choice for the new device would provide the most interoperability for present and future growth?
+o	Add a new 802.11n device.
+Explanation:
+802.11n devices are interoperable with all the other standards, and provide more bandwidth than the other standards. 802.11a is not interoperable with any of the other standards. 802.11b and 802.11g interoperate with each other, but do not provide the bandwidth supplied by 802.11n devices.
+The current IP configuration of a small company is done manually and is time-consuming. Because of increased network growth, a technician needs a simpler way for IP configuration of workstations. Which service would simplify the workstation IP configuration task?
+o	DHCP
+
+Explanation:
+In networks with more than a few hosts, DHCP simplifies the addressing process. A DHCP server automatically assigns host IP addresses.
+A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?
+o	The computer has an invalid default gateway address.
+Explanation:
+The default gateway is the address of the device a host uses to access the Internet or another network. If the default gateway is missing or incorrect, that host will not be able to communicate outside the local network. Because the host can access other hosts on the local network, the network cable and the other parts of the IP configuration are working.
+What physical layer medium is used by DSL to provide high-speed data communications?
+o	telephone lines
+
+Explanation:
+DSL uses existing telephone lines to carry voice and data traffic at the same time. DSL uses a filter to separate the traffic.
+A user is setting up a home wireless network. Which type of device must the user have in order to establish the wireless network and provide access to the internet for multiple home devices?
+o	wireless router
+
+Explanation:
+A wireless router connects multiple wireless devices to the network. It will then aggregate the internet access requests from home devices to the internet.
+
+A network technician is setting up a web server for a small company. The company has obtained a domain name, company-a.com, from a domain registry service. The new web server is accessible through the IP address matching the domain. However, when the technician types company-a.com in the web browser, an error message displays saying that “The connection has timed out”. What is the problem?
+o	The domain name resolution failed.
+Explanation:
+A web URL is in the form of protocol://domain-name/resource. The web server IP address can be used in place of domain-name. The resource is the file structure and file name under the web service. If the domain name is used in the URL, the IP address matching to the domain name must be found first through the name resolution process. HTTP is the default protocol by all web browsers so that a user is not required to type it when accessing a website. Also, home.html is not required for a web server to function. Even if the technician does not create any web page during the installation and configuration process, major web servers have a built-in mechanism to display a greeting message if the web server runs normally.
+
+
+
+
+
+
+A network technician is setting up a web server for a small company. The company has obtained a domain name companyX.com from a domain registry service. The web server must provide secure communication through SSL/TLS technology. When the technician enters companyX.com in the web browser, the unsecured part of the website is displayed. What should the technician do to make the web browser display the secure content of the web server?
+o	Use https://companyX.com as the URL.
+
+Explanation:
+A web URL is in the form protocol://domain-name/resource. HTTP is the default protocol used by all web browsers so that if a user does not specify the protocol in the URL, HTTP is used by default. In order to access the secure content serviced through SSL/TLS, a user must specify HTTPS as the protocol in the URL.
+A small company is upgrading its phone system with IP phones. These phones can be used just by plugging into a network port in the offices. Which technology would support the IP phones?
+o	Power over Ethernet
+
+Explanation:
+Power over Ethernet (PoE) is implemented through switches. A PoE switch transfers small amounts of DC current over an Ethernet cable, along with the data, to power PoE devices. Low voltage devices that support PoE, such as IP phones, can be powered through the Ethernet cable.
+A network technician is setting up a wireless access point in the front office of a small company. The technician needs to disable an option on the access point that would allow devices to dynamically add themselves to the network without configuration. Which technology should the technician disable?
+o	UPnP
+
+Explanation:
+Universal Plug and Play (UPnP) is a protocol that enables devices to dynamically add themselves to a network without the need for user intervention or configuration. Although convenient, UPnP is not secure. The UPnP protocol has no method for authenticating devices. In addition, the UPnP protocol has numerous security vulnerabilities. This protocol should be disabled.
+A small company connects data acquisition equipment to the serial port of a computer. The equipment user has reported that not all data is being received by the computer. A technician wants to check the serial communication between the equipment and the computer. Which tool can the technician use to troubleshoot the serial communication?
+o	loopback plug
+Explanation:
+A loopback plug is a device that connects to a computer to perform a diagnostic procedure called a loopback test. In a loopback test, a signal is transmitted through a circuit and then returned to the sending device to test the integrity of the data transmission.
+
+
+
+
+An administrator is setting up a framework to support access control on a network device. What type of server is able to control those who are permitted to access a network and track what actions they perform while accessing the network?
+o	authentication server
+A company is setting up one new laser printer on every floor. What type of server will store the print jobs in a queue and then spool them to the device when it is ready?
+o	print server
+What network service controls those who are permitted to access a network, what they can do while they are there, and track what actions they perform while accessing the network?
+o	AAA
+A technician is setting up a server that requires two connections between the client and the server, one for commands and replies, the other for the actual transfer of files. What type of server will accomplish this task?
+o	FTP server
+A technician is setting up an environment where popular and frequently accessed web pages are stored locally on the internal network. What type of server will accomplish this task?
+o	proxy server
+A user needs to connect to Cisco.com but does not know the IP address for this website. What type of server will translate the website name into an IP address?
+o	DNS server
+
+An administrator is setting up a framework to support access control on a network device. What type of server is able to control those who are permitted to access a network and track what actions they perform while accessing the network?
+o	authentication server
+An administrator is setting up a framework to support access control on a network device. What type of server is able to control those who are permitted to access a network and track what actions they perform while accessing the network?
+o	authentication server
+A company is setting up one new laser printer on every floor. What type of server will store the print jobs in a queue and then spool them to the device when it is ready?
+o	print server
+What network service controls those who are permitted to access a network, what they can do while they are there, and track what actions they perform while accessing the network?
+o	AAA
+Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?
+o	2002:42:10:c400::909
+Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?
+o	fe80:9ea:0:2200::fe0:290
+Which is the compressed format of the IPv6 address 2002:0420:00c4:1008:0025:0190:0000:0990?
+o	2002:420:c4:1008:25:190::990
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0ab8:0001:0000:1000?
+o	2001:db8::ab8:1:0:1000
+Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?
+o	fe80::220:b3f:f0e0:29
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?
+o	2001:db8::a0b0:8:1
+Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?
+o	fe80:9ea:0:2200::fe0:290
+Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?
+o	2002:42:10:c400::909
+Which is the compressed format of the IPv6 address 2002:0420:00c4:1008:0025:0190:0000:0990?
+o	2002:420:c4:1008:25:190::990
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?
+o	2001:db8::a0b0:8:1
